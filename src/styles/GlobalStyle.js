@@ -26,14 +26,21 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     list-style: none;
     text-decoration: none;
+    font-family: 'Nunito', sans-serif;
     
 }
 
 body{
     background-color: var(  --background-dark-color);
+    color: var(--font-light-color);
+}
+a{
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
 }
 
 `;

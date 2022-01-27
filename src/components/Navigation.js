@@ -65,7 +65,7 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: .45rem 0;
+                padding: .2rem 0;
                 position: relative;
                 z-index: 10;
                 text-transform: uppercase;
@@ -86,7 +86,7 @@ const NavigationStyled = styled.nav`
                     background-color: var( --primary-color);
                     transition: All 0.4s cubic-bezier(1,-0.2,.25,.95) ;
                     opacity: 0.21;
-                    z-index: -1;
+                    z-index: 3;
                 }
             }
 

@@ -44,7 +44,7 @@ const NavigationStyled = styled.nav`
     align-items: center;
     height: 100%;
     width: 100%;
-    /* border: 8px solid var(--border-color); */
+     border-right: 1px solid var(--border-color); 
     .avatar{
         width: 100%;
         border-bottom: 1px solid var(--border-color);
@@ -60,10 +60,7 @@ const NavigationStyled = styled.nav`
     .nav-items{
         width: 100%;
         text-align: center;
-        .active-class{
-            background-color: var(--primary-color-light);
-            color: white;
-        }
+       
         li{
             display: block;
             a{

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.jpg';
-import classes from '../styles/classStyle.css'
+ import classes from '../styles/classStyle.css'
 
 function Navigation() {
     return (
@@ -65,7 +65,7 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: .2rem 0;
+                padding: .45rem 0;
                 position: relative;
                 z-index: 10;
                 text-transform: uppercase;

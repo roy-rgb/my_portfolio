@@ -1,7 +1,11 @@
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
 import HomePage from "./Pages/HomePage";
-import {Routes,Route} from "react-router-dom";
+import {Navigate,Routes,Route} from "react-router-dom";
+import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
+
+
 
 function App() {
   return (
@@ -18,10 +22,14 @@ function App() {
               </div>
 
               <Routes>
-                  <Route></Route>
+                     <Route path="/" element={ < Navigate to= "/home" /> } />
+                    <Route path="/home" element={ <HomePage/> } />
+                    <Route path="/about" element={ <AboutPage/> } />
+                    <Route path="/contact" element={ <ContactPage/> } />
+                    
               </Routes>
 
-              <HomePage/>
+            
 
         </MainContentStyled>
       

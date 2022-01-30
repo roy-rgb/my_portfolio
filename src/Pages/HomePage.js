@@ -11,11 +11,10 @@ function HomePage() {
     <HomePageStyled>
       <div className="typography">
         <h1>
-          Hi I'm <span>Lorem Ipsum</span>
+          Hello I'm <span>Sourov Roy</span>
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry.
+            Wellcome To My Portfolio
         </p>
         <div className="icons">
           <div className="icon i-facebook">

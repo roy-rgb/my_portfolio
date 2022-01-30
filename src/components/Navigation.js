@@ -17,15 +17,9 @@ function Navigation() {
                 <li className="nav-item">
                     <NavLink to="/about" >About</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink to="/resume" >Resume</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/portfolios">Portfolios</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/blogs">Blogs</NavLink>
-                </li>
+               
+                
+              
                 <li className="nav-item">
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
@@ -65,7 +59,7 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: .45rem 0;
+                padding: 2rem 0;
                 position: relative;
                 z-index: 10;
                 text-transform: uppercase;

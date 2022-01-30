@@ -52,7 +52,7 @@ a{
  }
 
  span{
-     color: var(--primary-color);
+     color:#E51251;
  }
 
 `;

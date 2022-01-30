@@ -13,13 +13,13 @@ function App() {
         <Sidebar/>
         <MainContentStyled >
 
-              <div className="lines">
+              {/* <div className="lines">
               
                  <div className="line-1"></div>
                  <div className="line-2"></div>
                  <div className="line-3"></div>
                  <div className="line-4"></div>
-              </div>
+              </div> */}
 
               <Routes>
                      <Route path="/" element={ < Navigate to= "/home" /> } />
@@ -37,11 +37,11 @@ function App() {
   );
 }
 const MainContentStyled = styled.main`
-    position: relative;
-  margin-left: 16.3rem;
+  position: relative;
+  margin-left: 12rem;
   min-height: 100vh;
 
-  .lines{
+  /* .lines{
     position:absolute;
     min-height:100vh;
     width:100%;
@@ -53,7 +53,7 @@ const MainContentStyled = styled.main`
       min-height: 100vh;
       background-color: var(--border-color);
     }
-  }
+  } */
 
 `;
 

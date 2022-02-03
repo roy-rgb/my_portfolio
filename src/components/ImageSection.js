@@ -49,6 +49,7 @@ const ImageSectionStyled = styled.div`
         img{
             margin-top:1rem;
             width: 90%;
+            height:80% ;
             object-fit: cover;
         }
     }

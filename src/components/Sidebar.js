@@ -17,5 +17,8 @@ const SidebarStyled = styled.div`
     position: fixed;
     height: 100vh;
     background-color: var(--sidebar-dark-color);
+    @media screen and (max-width:425px){
+      width: 8rem;
+    }
 `;
 export default Sidebar;

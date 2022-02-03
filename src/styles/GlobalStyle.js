@@ -45,6 +45,9 @@ a{
 
  h1{
      font-size:3rem;
+     @media screen and (max-width:425px){
+        font-size:2rem;
+    }
      color: var(--white-color);
      span{
          font-size:2rem;

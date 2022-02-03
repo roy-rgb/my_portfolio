@@ -47,11 +47,15 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 95%;
+    @media screen and (max-width:425px){
+        width:80%;
+    }
 
     .icons {
       display: flex;
       justify-content: center;
       margin-top: 1rem;
+    
        .icon {
         border: 2px solid var(--border-color);
         display: flex;
@@ -66,6 +70,9 @@ const HomePageStyled = styled.header`
         }
         &:not(:last-child) {
           margin-right: 2rem;
+          @media screen and (max-width:425px){
+            margin-right: 1rem;
+    }
        
         }
         svg {
@@ -87,5 +94,7 @@ const HomePageStyled = styled.header`
       }
     }
   }
+
+
 `;
 export default HomePage;

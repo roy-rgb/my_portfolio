@@ -14,7 +14,7 @@ function HomePage() {
           Hello I'm <span>Sourov Roy</span>
         </h1>
         <p>
-            Wellcome To My Portfolio
+            Welcome To My Portfolio
         </p>
         <div className="icons">
           <div className="icon i-facebook">
